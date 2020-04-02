@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Agro-hold</title>
+    <script src="../gulpfile.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="../../Vicinlight.github.io/sass/style.scss">
+</head>
+<body>
+
+<header>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand agr_nav__logo" href="#">
+                    <img src="img/logo.svg" alt="terra">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav agr_nav__menu">
+                        <a class="nav-item agr_head_nav__link  active" href="#agr_main__anch">Главная <span class="sr-only">(current)</span></a>
+                        <a class="nav-item agr_head_nav__link  " href="#agr_about__anch">О нас</a>
+                        <a class="nav-item agr_head_nav__link  " href="#agr_goods__anch">Товары и улсуги</a>
+                        <a class="nav-item agr_head_nav__link  " href="#agr_cont__anch">Контакты</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <section class="agr_home" id="agr_home_anch">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="agr_home__title">
+                    <h1><b>Эксклюзивные решения</b> для аграрного сектора</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="agr_home_text">
+                    <p>При всем богатстве выбора - другой альтернативы нет</p>
+                </div>
+            </div>
+            <div class="row">
+                <button class="agr_btn agr_nav__btn" href="#agr_cont__anch">
+                    Получить консультацию
+                </button>
+            </div>
+        </div>
+    </section>
+</header>
+
+
+<main>
+    <section class="agr_advantages" id="agr_main__anch">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>приемущества</h2>
+            </div>
+            <div class="row">
+                <div class="agr_advantages__box d-flex justify-content-center">
+                    <div class="agr_advantages__box__elem ">
+                        <div class="agr_advantages__box-bg -f">
+                            <img class="img-fluid figure-img " src="img/farm.png" alt="Farm">
+                            <h3>Ценообразование</h3>
+                            <p>Индивидуальное ценообразование...</p>
+                            <a href="#">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="agr_advantages__box__elem ">
+                        <div class="agr_advantages__box-bg -s">
+                            <img class="img-fluid figure-img " src="img/farming-and-gardening.png" alt="Field">
+                            <h3>Эксклюзивность</h3>
+                            <p>Эксклюзивные партнерские программы...</p>
+                            <a href="#">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="agr_advantages__box__elem ">
+                        <div class="agr_advantages__box-bg -t">
+                            <img class="img-fluid figure-img " src="img/Tractor.png" alt="Tractor">
+                            <h3>Профессионализм</h3>
+                            <p>Наши сотрудники являются...</p>
+                            <a href="#">подробнее</a>
+                        </div>
+                    </div>
+                    <div class="agr_advantages__box__elem ">
+                        <div class="agr_advantages__box-bg -fo">
+                            <img class="img-fluid figure-img " src="img/eco.png" alt="Ecologic">
+                            <h3>Открытость</h3>
+                            <p>Наша компания ориентирована на открытый диалог...</p>
+                            <a href="#">подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="agr_goods" id="agr_goods__anch">
+        <div class="container-fluid">
+            <div class="row">
+                <h2>Товары и услуги</h2>
+            </div>
+            <div class="row">
+                <nav>
+                    <div class="nav nav-tabs agr_goods__tab" id="nav-tab" role="tablist">
+                        <a class=" nav-link active" id="nav-mat-tab" data-toggle="tab" href="#nav-mat"
+                           role="tab" aria-controls="nav-mat" aria-selected="true"><span>01</span>
+                            <p>Посевной материал</p></a>
+                        <a class=" agr_goods__tab-link nav-link" id="nav-def-tab" data-toggle="tab"
+                           href="#nav-def" role="tab" aria-controls="nav-def" aria-selected="false"><span>02</span>
+                            <p>Средства защиты растений</p></a>
+                        <a class=" agr_goods__tab-link nav-link" id="nav-fer-tab" data-toggle="tab"
+                           href="#nav-fer" role="tab" aria-controls="nav-fer" aria-selected="false"><span>03</span>
+                            <p>Удобрения</p></a>
+                        <a class=" agr_goods__tab-link nav-link" id="nav-gas-tab" data-toggle="tab"
+                           href="#nav-gas" role="tab" aria-controls="nav-gas" aria-selected="false"><span>04</span>
+                            <p>Смазочные материалы и топливо</p></a>
+                        <a class=" agr_goods__tab-link nav-link" id="nav-rel-tab" data-toggle="tab"
+                           href="#nav-rel" role="tab" aria-controls="nav-rel" aria-selected="false"><span>05</span>
+                            <p>Содействие по реализации продукции</p></a>
+                        <a class=" agr_goods__tab-link nav-link" id="nav-law-tab" data-toggle="tab"
+                           href="#nav-law" role="tab" aria-controls="nav-law" aria-selected="false"><span>06</span>
+                            <p>Юридические услуги</p></a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active nav-mat  " aria-selected="true" id="nav-mat" role="tabpanel"
+                 aria-labelledby="nav-mat-tab">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="agr_goods__tab-box">
+                            <h3>Посевной материал</h3>
+                            <p>Эксперты нашей компании имеют достаточно богатый опыт по вопросам грамотного подбора
+                                качественного посевного материала как украинских селекционных институтов, так и
+                                передовых
+                                международных лидеров, что в сочетании с индивидуальным подходом к решению задач каждого
+                                клиента качественно выделяет наше предложение на существующем рынке.</p>
+                        </div>
+
+                        <img src="img/Field.jpg" class="img-fluid" alt="Field">
+
+                        <div class="agr_goods__tab-box2 ">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                            <button class="agr_btn agr_goods__tab-button">
+                                Получить консультацию
+                            </button>
+                        </div>
+
+                        <div class="agr_goods__tab-box3 ">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-pane fade nav-mat" id="nav-def" role="tabpanel" aria-labelledby="nav-def-tab">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="agr_goods__tab-box">
+                            <h3>Посевной материал</h3>
+                            <p>Эксперты нашей компании имеют достаточно богатый опыт по вопросам грамотного подбора
+                                качественного посевного материала как украинских селекционных институтов, так и
+                                передовых
+                                международных лидеров, что в сочетании с индивидуальным подходом к решению задач каждого
+                                клиента качественно выделяет наше предложение на существующем рынке.</p>
+                        </div>
+
+                        <img src="img/Field.jpg" class="img-fluid" alt="Field">
+                        <div class="agr_goods__tab-box2 ">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                            <button class="agr_btn agr_goods__tab-button">
+                                Получить консультацию
+                            </button>
+                        </div>
+
+                        <div class="agr_goods__tab-box3 ">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade nav-mat" id="nav-fer" role="tabpanel" aria-labelledby="nav-fer-tab">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="agr_goods__tab-box">
+                            <h3>Посевной материал</h3>
+                            <p>Эксперты нашей компании имеют достаточно богатый опыт по вопросам грамотного подбора
+                                качественного посевного материала как украинских селекционных институтов, так и
+                                передовых
+                                международных лидеров, что в сочетании с индивидуальным подходом к решению задач каждого
+                                клиента качественно выделяет наше предложение на существующем рынке.</p>
+                        </div>
+
+                        <img src="img/Field.jpg" class="img-fluid" alt="Field">
+
+                        <div class="agr_goods__tab-box2 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                            <button class="agr_btn agr_goods__tab-button">
+                                Получить консультацию
+                            </button>
+                        </div>
+
+                        <div class="agr_goods__tab-box3 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade nav-mat" id="nav-gas" role="tabpanel" aria-labelledby="nav-gas-tab">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="agr_goods__tab-box">
+                            <h3>Посевной материал</h3>
+                            <p>Эксперты нашей компании имеют достаточно богатый опыт по вопросам грамотного подбора
+                                качественного посевного материала как украинских селекционных институтов, так и
+                                передовых
+                                международных лидеров, что в сочетании с индивидуальным подходом к решению задач каждого
+                                клиента качественно выделяет наше предложение на существующем рынке.</p>
+                        </div>
+
+                        <img src="img/Field.jpg" class="img-fluid" alt="Field">
+
+                        <div class="agr_goods__tab-box2 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                            <button class="agr_btn agr_goods__tab-button">
+                                Получить консультацию
+                            </button>
+                        </div>
+
+                        <div class="agr_goods__tab-box3 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade nav-mat" id="nav-rel" role="tabpanel" aria-labelledby="nav-rel-tab">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="agr_goods__tab-box">
+                            <h3>Посевной материал</h3>
+                            <p>Эксперты нашей компании имеют достаточно богатый опыт по вопросам грамотного подбора
+                                качественного посевного материала как украинских селекционных институтов, так и
+                                передовых
+                                международных лидеров, что в сочетании с индивидуальным подходом к решению задач каждого
+                                клиента качественно выделяет наше предложение на существующем рынке.</p>
+                        </div>
+
+                        <img src="img/Field.jpg" class="img-fluid" alt="Field">
+
+                        <div class="agr_goods__tab-box2 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                            <button class="agr_btn agr_goods__tab-button">
+                                Получить консультацию
+                            </button>
+                        </div>
+
+                        <div class="agr_goods__tab-box3 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade nav-mat" id="nav-law" role="tabpanel" aria-labelledby="nav-law-tab">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="agr_goods__tab-box">
+                            <h3>Посевной материал</h3>
+                            <p>Эксперты нашей компании имеют достаточно богатый опыт по вопросам грамотного подбора
+                                качественного посевного материала как украинских селекционных институтов, так и
+                                передовых международных лидеров, что в сочетании с индивидуальным подходом к решению
+                                задач каждого клиента качественно выделяет наше предложение на существующем рынке.</p>
+                        </div>
+
+                        <img src="img/Field.jpg" class="img-fluid" alt="Field">
+
+                        <div class="agr_goods__tab-box2 col-xl-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                            <button class="agr_btn agr_goods__tab-button">
+                                Получить консультацию
+                            </button>
+                        </div>
+
+                        <div class="agr_goods__tab-box3 col-lg-3">
+                            <h4>Семена масличных культур</h4>
+                            <p>Подсолнух, Рапс Кукуруза, Сахарная кукуруза</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<article class="agr_about" id="agr_about__anch">
+    <div class="container-fluid">
+        <div class="row">
+            <h2 class="col-xl-3">О компании</h2>
+            <p class="col-xl-8 agr_about_txt-main">Компания “La Terra” основана в 2011 году командой специалистов по
+                сельскому хозяйству.Основным направлением развития и деятельности является удовлетворение и решение
+                задач компаний работающих в аграрном секторе. Компания по праву занимает лидирующие позиции в своем
+                сегменте за счет ориентации на рынок и ваши потребности. Строгий контроль качества предоставляемых
+                сервисов, услуг и товаров, а также квалифицированный персонал, являются нашими отличительными чертами.
+                Мы нацелены на формирования долгосрочных и взаимовыгодных отношений с партнерами.</p>
+        </div>
+        <div class="row justify-content-end">
+            <img src="img/cage.jpg" alt="Cage" class="img-fluid">
+        </div>
+        <div class="row">
+            <h3 class="col-xl-2">Политика</h3>
+            <p class="col-xl-9 agr_about_txt-side">Наша компания предоставляет эксклюзивные решения сезонных проблем
+                аграрного сектора таких как: успешная реализация агропродукции по лучшей цене, своевременное обеспечение
+                всеми необходимыми ресурсами и услугами для профессионального и успешного ведения агробизнеса.</p>
+            <h3 class="col-xl-2">Ценности</h3>
+            <p class="col-xl-7 agr_about_txt-side">Основная наша ценность - это Ваш успех. Мы нацелены на моментальное
+                реагирование на запрос любой сложности предоставляя эксклюзивные решения</p>
+        </div>
+    </div>
+</article>
+
+<aside class="agr_contact" id="agr_cont__anch">
+    <div class="agr_contact_container__box">
+        <div class="container-fluid">
+            <div class="agr_contact__map" id="map">
+            </div>
+            <div class="row">
+                <div class="agr_contact__box">
+                    <h2>контакты</h2>
+                    <h3>Валера Селедкин</h3>
+                    <p>+380 68 777 77 77 </p>
+                    <p>+380 68 777 77 77 </p>
+                    <p>laterra@gmail.com</p>
+                    <h4>Адрес</h4>
+                    <p>Шота Руставели 17/6 <br>этаж 8 офис 65</p>
+                </div>
+                <div class="agt_contact__form">
+                    <h3>Оставьте заявку и мы свяжемся с вами</h3>
+                    <div class="agr_contact__form__txt flex-row">
+                        <p>Ваше имя</p>
+                        <p>Ваш телефон</p>
+                    </div>
+                    <form action="#" class="form-inline">
+                        <input type="text" placeholder="Введите ваше имя">
+                        <input type="text" placeholder="Введите ваш телефон">
+                        <button type="submit" class="agr_btn cv_head_nav__link">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</aside>
+
+<footer>
+    <div class="container-fluid">
+        <div class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand agr_nav__logo" href="#">
+                <img src="img/logo.svg" alt="terra">
+            </a>
+            <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup2"
+                    aria-controls="navbarNavAltMarkup2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup2">
+                <div class="navbar-nav agr_nav__menu">
+                    <a class="nav-item agr_head_nav__link active" href="#agr_home_anch">Главная <span class="sr-only">(current)</span></a>
+                    <a class="nav-item agr_head_nav__link " href="#agr_about__anch">О нас</a>
+                    <a class="nav-item agr_head_nav__link " href="#agr_goods__anch">Товары и улсуги</a>
+                    <a class="nav-item agr_head_nav__link " href="#agr_cont__anch">Контакты</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="agr_footer__nav__line"></div>
+        </div>
+        <div class="row justify-content-between">
+            <p>Все права защищены</p>
+            <p>© La Terra 2020</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlU7b3lhvjc28nmLsoByWVbmp-Fob1CLc&callback=initMap" async
+        defer></script>
+<script src="js/main.js"></script>
+</body>
+</html>

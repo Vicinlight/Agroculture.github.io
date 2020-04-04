@@ -570,7 +570,7 @@ html {
               display: none; } }
           @media (max-height: 891.98px) {
             html body .agr_contact .agr_contact_container__box .agr_contact__map {
-              top: 30%; } }
+              top: 2%; } }
         html body .agr_contact .agr_contact_container__box .agr_contact__box {
           width: 34.5%;
           height: 606px;

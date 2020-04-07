@@ -6,7 +6,6 @@ html {
     font-family: Rubik, sans-serif;
     font-style: normal; }
   html .agr_btn {
-    background: -o-linear-gradient(350.65deg, #3C9B68 -32.61%, #3EAA70 98.35%);
     background: linear-gradient(99.35deg, #3C9B68 -32.61%, #3EAA70 98.35%);
     font-style: normal;
     font-weight: 500;
@@ -19,7 +18,6 @@ html {
       background: #FFFFFF;
       color: #0b0b0b; }
   html body {
-    background: -o-linear-gradient(350.65deg, #3C9B68 -32.61%, #3EAA70 98.35%);
     background: linear-gradient(99.35deg, #3C9B68 -32.61%, #3EAA70 98.35%);
     height: 100%;
     width: 100%; }
@@ -188,14 +186,11 @@ html {
       padding-bottom: 170px; }
       @media (max-width: 991.98px) {
         html body main .agr_advantages .agr_advantages__box {
-          -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
       html body main .agr_advantages .agr_advantages__box .agr_advantages__box__elem {
         background: #FFFFFF;
         border: 1px solid #FFFFFF;
-        -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        -webkit-box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.12);
         box-shadow: 2px 6px 16px rgba(0, 0, 0, 0.12);
         border-radius: 14px;
         height: 559px;
@@ -567,7 +562,8 @@ html {
               top: 60%; } }
           @media (max-height: 891.98px) {
             html body .agr_contact .agr_contact_container__box .agr_contact__map {
-              top: 34%; } }
+              top: 24%;
+              height: 80%; } }
           @media (max-width: 640px) {
             html body .agr_contact .agr_contact_container__box .agr_contact__map {
               display: none; } }
@@ -689,7 +685,6 @@ html {
             margin-right: 24px;
             outline: none;
             background: transparent;
-            -webkit-box-shadow: none;
             box-shadow: none;
             border-color: transparent;
             border-bottom: 1px solid #C4C4C4; }
